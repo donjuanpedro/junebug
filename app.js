@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 // });
 
 app.get('/', function(req, res, next) {
-  res.render('index.ejs', {names: [' Walker', ' Kate', ' C.J.', ' June']});
+  res.render('index.ejs', {names: 'Life is good, believe it.'});
 });
 
 //set up server
